@@ -1,0 +1,25 @@
+{
+  "name": "intelligent-personal-health-record-phr-platform",
+  "version": "1.0.0",
+  "description": "SmartPHR: Advanced AI Health OS",
+  "main": "run-all.js",
+  "scripts": {
+    "start": "node run-all.js",
+    "dev": "node run-all.js",
+    "dev:main": "cd backend-main && npm run dev",
+    "dev:ai": "cd backend-ai && python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload",
+    "dev:frontend": "cd frontend-web && npm run dev",
+    "build:frontend": "cd frontend-web && npm run build"
+  },
+  "keywords": [
+    "health-record",
+    "phr",
+    "gemini-ai",
+    "fastapi",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC"
+}

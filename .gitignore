@@ -1,0 +1,21 @@
+.env
+**/.env
+node_modules/
+__pycache__/
+*.pyc
+backend-main/uploads/
+backend-ai/audio_reports/
+backend-ai/scans/
+.DS_Store
+# Logs
+*.log
+*.txt
+
+# Specific log files
+build_log.txt
+build_log2.txt
+build.log
+error.log
+error_utf8.log
+eslint_output.txt
+lint_results.txt
